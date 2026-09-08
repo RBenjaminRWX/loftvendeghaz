@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Loft Vendégház Varbón, a Bükk lábánál. Privát wellness, jakuzzi, finn szauna és fatüzelésű dézsa, legfeljebb 8 vendég részére.">
+  <meta name="theme-color" content="#2f160d">
+  <title>Loft Vendégház | Varbó</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ugrás a tartalomhoz</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Loft Vendégház kezdőlap">
+      <img src="assets/logo.png" alt="" width="56" height="56">
+      <span>Loft <small>Vendégház · Varbó</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-menu-toggle>
+      <span class="sr-only">Menü megnyitása</span>
+      <span></span><span></span>
+    </button>
+    <nav id="main-nav" class="main-nav" aria-label="Fő navigáció" data-nav>
+      <a href="#haz">A ház</a>
+      <a href="#wellness">Wellness</a>
+      <a href="#galeria">Galéria</a>
+      <a href="#arak">Árak</a>
+      <a href="#helyszin">Helyszín</a>
+      <a class="nav-cta" href="#foglalas">Foglalás</a>
+      <div class="language-switch" aria-label="Nyelvválasztó">
+        <button type="button" class="active" data-language="hu" aria-pressed="true">HU</button>
+        <button type="button" data-language="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/DJI_0108-Pano.jpg" alt="A Loft Vendégház és a Varbói-tó látképe" width="1800" height="1029" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Varbó · A Bükk lábánál</p>
+        <h1 id="hero-title">Közel a természethez.<br>Közel egymáshoz.</h1>
+        <p class="hero-copy">Egy teljes ház, privát wellness és zavartalan panoráma, legfeljebb 8 vendégnek.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#foglalas">Időpontot kérek</a>
+          <a class="text-link text-link-light" href="#galeria">Fedezd fel a házat <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-facts" aria-label="Főbb jellemzők">
+        <span><strong>8</strong> vendég</span>
+        <span><strong>3</strong> wellness élmény</span>
+        <span><strong>1</strong> teljes ház</span>
+      </div>
+    </section>
+
+    <section class="intro section" id="haz">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Lassíts le</p>
+        <h2>Hely, ahol a csendnek is tere van.</h2>
+      </div>
+      <div class="intro-copy reveal">
+        <p>A Varbói Loft Vendégház a természet és a modern kényelem találkozása. Világos, karakteres terek, tóra néző terasz és egy kert, ami csak a tietek.</p>
+        <p>Romantikus páros pihenéshez, családi kikapcsolódáshoz vagy baráti hétvégéhez. Aggtelek, Lillafüred, horgásztavak és a kéktúra útvonala is könnyen elérhető.</p>
+      </div>
+      <figure class="feature-image reveal">
+        <img src="assets/BWS5947-HDR-Pano.jpg" alt="A Loft Vendégház tágas nappali és étkező tere" width="1800" height="622" loading="lazy">
+      </figure>
+    </section>
+
+    <section class="wellness section" id="wellness">
+      <div class="wellness-image reveal">
+        <img src="assets/DJI_0172-HDR.jpg" alt="Fatüzelésű dézsa és finn szauna a kertben" width="1800" height="1350" loading="lazy">
+      </div>
+      <div class="wellness-copy reveal">
+        <p class="eyebrow">Privát wellness</p>
+        <h2>Meleg víz. Hűvös levegő. Semmi sietség.</h2>
+        <p>A wellness élmény itt nem közös tér és nem időponthoz kötött program. A kert, a terasz és minden szolgáltatás kizárólag a vendégház lakóié.</p>
+        <ul class="amenity-list">
+          <li><span>01</span><strong>Jakuzzi</strong><small>Panorámás terasz</small></li>
+          <li><span>02</span><strong>Finn szauna</strong><small>Kerti pihenőtér</small></li>
+          <li><span>03</span><strong>Fatüzelésű dézsa</strong><small>Természetes élmény</small></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="gallery section" id="galeria">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Galéria</p>
+        <h2>Nézz körül.</h2>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-wide reveal" data-lightbox="assets/BWS5745-HDR.jpg" aria-label="Nappali és konyha megnyitása nagy méretben">
+          <img src="assets/BWS5745-HDR.jpg" alt="Nappali és konyha" width="1800" height="1199" loading="lazy">
+        </button>
+        <button class="gallery-item gallery-tall reveal" data-lightbox="assets/BWS5785-HDR.jpg" aria-label="Hálószoba megnyitása nagy méretben">
+          <img src="assets/BWS5785-HDR.jpg" alt="Gerendás tetőtéri hálószoba" width="1203" height="1800" loading="lazy">
+        </button>
+        <button class="gallery-item reveal" data-lightbox="assets/BWS5893-HDR.jpg" aria-label="Fürdőszoba megnyitása nagy méretben">
+          <img src="assets/BWS5893-HDR.jpg" alt="Karakteres fürdőszoba" width="1203" height="1800" loading="lazy">
+        </button>
+        <button class="gallery-item reveal" data-lightbox="assets/BWS5973-HDR.jpg" aria-label="Terasz megnyitása nagy méretben">
+          <img src="assets/BWS5973-HDR.jpg" alt="Fedett terasz tóra néző panorámával" width="1800" height="1200" loading="lazy">
+        </button>
+        <button class="gallery-item gallery-wide reveal" data-lightbox="assets/DJI_0276-HDR-Pano.jpg" aria-label="Légi panoráma megnyitása nagy méretben">
+          <img src="assets/DJI_0276-HDR-Pano.jpg" alt="A vendégház és a tó légi panorámája" width="1800" height="1029" loading="lazy">
+        </button>
+      </div>
+      <div class="gallery-more reveal">
+        <button class="button button-gallery" type="button" data-gallery-open>Mind a 45 fotó megtekintése</button>
+      </div>
+    </section>
+
+    <section class="prices section" id="arak">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Árak</p>
+        <h2>Egyszerű, átlátható.</h2>
+      </div>
+      <div class="price-list reveal">
+        <div><span>2 fő / éjszaka</span><strong>47 990 Ft</strong></div>
+        <div><span>4 fő / éjszaka</span><strong>75 990 Ft</strong></div>
+        <div class="price-featured"><span>Teljes ház / éjszaka <small>maximum 8 fő</small></span><strong>119 990 Ft</strong></div>
+        <div><span>Finn szauna / nap</span><strong>11 990 Ft</strong></div>
+        <div><span>Fatüzelésű dézsa / alkalom</span><strong>9 990 Ft</strong></div>
+      </div>
+      <p class="price-note reveal">A szabad időpontokról és a tartózkodás részleteiről közvetlenül adunk tájékoztatást.</p>
+    </section>
+
+    <section class="location section" id="helyszin">
+      <div class="location-copy reveal">
+        <p class="eyebrow">Helyszín</p>
+        <h2>Karnyújtásnyira a Bükk.</h2>
+        <p>A vendégház Varbón, a tó közelében található. Az útvonaltervezéshez nyisd meg a pontos címet a térképen.</p>
+        <address>3778 Varbó, Csuka út 4.</address>
+        <a class="button" href="https://www.google.com/maps/search/?api=1&query=3778+Varb%C3%B3%2C+Csuka+%C3%BAt+4" target="_blank" rel="noopener">Útvonaltervezés</a>
+      </div>
+      <div class="map reveal">
+        <iframe title="Loft Vendégház helye a térképen" src="https://www.google.com/maps?q=3778%20Varb%C3%B3%2C%20Csuka%20%C3%BAt%204&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="booking" id="foglalas">
+      <img src="assets/BWS6008-HDR.jpg" alt="Kilátás a Loft Vendégház teraszáról" width="1800" height="1200" loading="lazy">
+      <div class="booking-shade"></div>
+      <div class="booking-content reveal">
+        <p class="eyebrow">Foglalás</p>
+        <h2>A következő lassú reggel itt kezdődhet.</h2>
+        <p>A 2026-os foglalási naptár nyitva. Írd meg az érkezés és távozás tervezett dátumát, vagy hívj minket.</p>
+        <div class="booking-actions">
+          <a class="button button-light" href="mailto:loftvarbo@gmail.com?subject=Foglalási%20érdeklődés%20-%20Loft%20Vendégház">E-mailt írok</a>
+          <a class="button button-outline-light" href="tel:+36703771223">+36 70 377 1223</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Loft Vendégház" width="96" height="96">
+      <p>Stílusos pihenés<br>a Bükk lábánál.</p>
+    </div>
+    <div>
+      <p class="footer-label">Látogass meg</p>
+      <address>3778 Varbó<br>Csuka út 4.</address>
+    </div>
+    <div>
+      <p class="footer-label">Kapcsolat</p>
+      <a href="tel:+36703771223">+36 70 377 1223</a>
+      <a href="mailto:loftvarbo@gmail.com">loftvarbo@gmail.com</a>
+    </div>
+    <div>
+      <p class="footer-label">Kövess minket</p>
+      <a href="https://www.facebook.com/profile.php?id=61571018093658" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/loftvarbo/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/@LoftVendeghazVarbo" target="_blank" rel="noopener">YouTube</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Loft Vendégház</span>
+      <span>NTAK: EG24102615</span>
+    </div>
+  </footer>
+
+  <a class="mobile-book" href="#foglalas">Foglalás</a>
+
+  <dialog class="gallery-browser" data-gallery-dialog aria-label="Teljes fotógaléria">
+    <header class="gallery-browser-header">
+      <div>
+        <p class="eyebrow">Fotógaléria</p>
+        <p class="gallery-count" data-gallery-count>45 fénykép</p>
+      </div>
+      <div class="gallery-filters" aria-label="Galéria szűrők" data-gallery-filters>
+        <button type="button" class="active" data-filter="all">Összes</button>
+        <button type="button" data-filter="interior">Beltér</button>
+        <button type="button" data-filter="wellness">Wellness</button>
+        <button type="button" data-filter="outdoor">Kert</button>
+        <button type="button" data-filter="panorama">Panoráma</button>
+      </div>
+      <button class="gallery-browser-close" type="button" aria-label="Galéria bezárása" data-gallery-close>×</button>
+    </header>
+    <div class="gallery-browser-grid" data-gallery-grid></div>
+  </dialog>
+
+  <dialog class="lightbox" data-lightbox-dialog aria-label="Képnézegető">
+    <button class="lightbox-close" type="button" aria-label="Bezárás" data-lightbox-close>×</button>
+    <img alt="">
+  </dialog>
+</body>
+</html>
